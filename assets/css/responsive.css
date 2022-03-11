@@ -1,62 +1,42 @@
 /* ipad pro */
-@media all and (max-width:1024px) {
-    .container-header {
-        height: 40%;
-    }
+@media all and (max-width: 1024px) {
+  .welcome {
+    height: 80px;
+    line-height: 30px;
+    margin: 50px 0 0 0;
+  }
 
-    .brand {
-        width: 21%
-    }
+  .brand img {
+      width: 200px;
+      height: auto;
+  }
 
-    .space {
-        height: 20vh;
-    }
+  header {
+      height: 140px;
+  }
+}
 
-    
+/* small tablet */
+@media all and (max-width: 600px) {
+    .text-footer p{
+        font-size: 14px;
+    }
 }
 
 /* iPhone 6/7/8 Plus */
 
-@media all and (max-width:414px) { 
-    .text-footer p{
-        font-size: 14px;
-    }
-
-    .brand {
-        width: 28%;
-    }
-
-}
-/* iphone X */
-
-@media all and (max-width:375px) { 
-    .text-footer p{
-        font-size: 13px;
-    }
-
-    .brand {
-        width: 32%;
-    }
-
-}
-
-/* iPhone 5/SE */
-@media all and (max-width:320px) { 
+@media all and (max-width: 414px) {
     .text-footer p{
         font-size: 12px;
     }
 
-    .brand {
-        width: 28%;
+    .brand img {
+        width: 160px;
+        height: auto;
     }
-
-    .ew-f p {
-        font-size: 14px;
-        
-    }
-
-    .text-content p{
-        font-size: 14px;
-        
+    header {
+        height: 110px;
     }
 }
+
+
