@@ -3,17 +3,19 @@
     padding: 0;
 }
 
-html {
+body {
     width: 100%;
     background-color: #E5E5E5;
     height: 100%;
+    
+    
 }
 
-body {
-    height: 100%;
-    width: 60%;
+.ova {
+    width: 40%;
     background-color: #fff;
     margin: 0 auto;
+    
 }
 
 
@@ -33,10 +35,11 @@ header {
     background-color: #fff;
     align-items: center;
     line-height: 50px;
-    margin: 35px 0px 25px 0;
+    margin: 50px 0px 25px 0;
 }
 
 .content {
+    height: 120%;
     margin:0 10%;
 }
 
@@ -69,18 +72,22 @@ header {
     border-radius: 5px;
 }
 
+
 footer {
-    width: 60%;
-    height: 80px;
-    background-color: #F2EDF3;
-    position: absolute;
-    bottom: 0;
+position: relative;
+height: 80px;
+background-color: #F2EDF3;
+margin-top: 150px;
+  
 }
 
 .text-footer {
     text-align: center;
-    margin-top: 15px;
+    line-height: 32px;
     
+}
+.text-footer-container {
+    margin-top: 10px
 }
 
 .text-footer p{
@@ -88,6 +95,7 @@ footer {
     color: #000;
     font-family: Open Sans;
     opacity: 0.7;
+    
 }
 
 .btn-content:hover {
